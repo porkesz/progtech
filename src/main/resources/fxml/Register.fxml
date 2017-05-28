@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rentacar.controller.RegisterFXMLController">
+    <children>
+        <Button fx:id="button" layoutX="476.0" layoutY="318.0" onAction="#handleButtonAction" text="Mentés">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Label fx:id="label" layoutX="19.0" layoutY="20.0" minHeight="16" minWidth="69" prefHeight="37.0" prefWidth="91.0" text="Regisztráció">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label id="name" fx:id="name" layoutX="110.0" layoutY="82.0" minHeight="16" minWidth="69" prefHeight="37.0" prefWidth="84.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+      <Label layoutX="35.0" layoutY="64.0" prefHeight="37.0" prefWidth="91.0" text="Vezetéknév:" />
+      <Label layoutX="35.0" layoutY="91.0" prefHeight="37.0" prefWidth="91.0" text="Keresztnév:" />
+      <Label layoutX="35.0" layoutY="119.0" prefHeight="37.0" prefWidth="91.0" text="Email:" />
+      <Label layoutX="35.0" layoutY="147.0" prefHeight="37.0" prefWidth="91.0" text="Telefonszám:" />
+      <Label layoutX="35.0" layoutY="175.0" prefHeight="37.0" prefWidth="91.0" text="Születési dátum:" />
+      <Label layoutX="35.0" layoutY="200.0" prefHeight="37.0" prefWidth="91.0" text="Jelszó:" />
+      <Label layoutX="35.0" layoutY="227.0" prefHeight="37.0" prefWidth="91.0" text="Jelszó:" />
+      <TextField fx:id="lastname" layoutX="152.0" layoutY="70.0" />
+      <TextField fx:id="firstname" layoutX="152.0" layoutY="97.0" />
+      <TextField fx:id="email" layoutX="152.0" layoutY="125.0" />
+      <TextField fx:id="telephone" layoutX="152.0" layoutY="153.0" />
+      <TextField fx:id="birthday" layoutX="152.0" layoutY="181.0" />
+      <PasswordField fx:id="password1" layoutX="152.0" layoutY="206.0" />
+      <PasswordField fx:id="password2" layoutX="152.0" layoutY="233.0" />
+      <Label fx:id="lastnameError" layoutX="341.0" layoutY="70.0" prefHeight="25.0" prefWidth="191.0" style="-fx-text-fill: red;" />
+      <Label fx:id="passwordError" layoutX="341.0" layoutY="206.0" prefHeight="25.0" prefWidth="191.0" style="-fx-text-fill: red;" />
+      <Label fx:id="birthdayError" layoutX="341.0" layoutY="181.0" prefHeight="25.0" prefWidth="191.0" style="-fx-text-fill: red;" />
+      <Label fx:id="telephoneError" layoutX="341.0" layoutY="153.0" prefHeight="25.0" prefWidth="191.0" style="-fx-text-fill: red;" />
+      <Label fx:id="emailError" layoutX="341.0" layoutY="125.0" prefHeight="25.0" prefWidth="191.0" style="-fx-text-fill: red;" />
+      <Label fx:id="firstnameError" layoutX="341.0" layoutY="97.0" prefHeight="25.0" prefWidth="191.0" style="-fx-text-fill: red;" />
+    </children>
+</AnchorPane>
