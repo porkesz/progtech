@@ -23,7 +23,7 @@ import javafx.stage.Stage;
 public class MainApp  extends Application {
 
     public static Customer customer;
-    public static final String TITLE = "Rent A Car";
+    public static final String TITLE = "Rent A Car Application";
     
     @Override
     public void start(Stage stage) throws Exception {
